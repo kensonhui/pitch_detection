@@ -14,3 +14,6 @@ pip install librosa, numpy, soundfile, matplotlib
 python yin_pitch_detection.py
 ```
 
+yin_pitch_detection.py
+- Smaller window size seems to get better results until you reach 128, where it gets significantly worse.
+- Future: Convert to MIDI
